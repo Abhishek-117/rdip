@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<style>
+
+		h1{
+			font-family: sans-serif;
+		}
+
+		div{
+			padding :15px 150px;
+		}
+
+		ul {
+		  	list-style-type: none;
+		  	margin: 0;
+		  	padding: 0;
+		  	overflow: hidden;
+		  	background-color: #333;
+		}
+
+		li {
+		 	float: left;
+		}
+
+		li a {
+		  	display: block;
+		  	color: white;
+		  	text-align: center;
+		  	padding: 14px 16px;
+		  	text-decoration: none;
+		}
+
+		input{
+			margin-left: 70px;
+			border-radius: 7px;
+			border-color: lightgrey;
+			padding: 5px 35px;
+		}
+
+		th{
+			padding-bottom: 15px;
+		}
+
+		a.a{
+			text-decoration: none;
+			color:black;
+		}
+
+	</style>
+</head>
+<body>
+	<div>
+		<h1 align="center">REGISTRATION PAGE:</h1>	
+		<img src=https://www.iiit.ac.in/img/iiit-new.png alt="IITH logo"style="float:left" width="140px" height="70px">
+		<a href="https://serc.iiit.ac.in/rdip" style="float: right; font-size: 30px" ><b>RDIP</b></a>
+	</div>
+
+	<div style="margin-top: 70px; padding-left: 150px ">
+		<ul>
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="registration.html">Registration Form</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<table style="font-family: Georgia; font-weight: bold">
+			<tr>
+				<th>First name:</th>
+				<th><input type="text" name="fname"></th>
+			</tr>
+			<tr>
+				<th>E-mail:</th>
+				<th><input type="email" name="email"></th>
+			</tr>
+			<tr>
+				<th>Phone No:</th>
+				<th><input type="tel" name="phone"></th>
+			</tr>
+			<tr>
+				<th>Gender:</th>
+				<th><input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female" style="margin-left:15px">Female<input type="radio" name="gender" value="other" style="margin-left:15px">Other
+				</th>
+			</tr>
+			<tr>
+				<th>Reason for RDIP:</th>
+				<th><input type="checkbox" name="reason" value="html">HTML<input type="checkbox" name="reason" value="css" style="margin-left:15px">CSS<input type="checkbox" name="reason" value="javascript" style="margin-left:15px">JavaScript
+				</th>
+			</tr>
+			<tr>
+				<th>College:</th>
+				<th><input type="text" name="college"></th>
+			</tr>
+			<tr>
+				<th><input type="checkbox" name="agree" style="margin-left: 10px"></th>
+				<th>I declare above details given by me are true.</th>
+			</tr>
+			<!--style="border-radius: 5px; border-width: 1px;"-->
+			<tr>
+				<th><button type="submit" value="Submit" style="border-radius: 5px; border-width: 1px;"><a class="a" href="details.html">Submit</a></button></th>
+  				<th><button type="reset" value="Reset" style="border-radius: 5px; border-width: 1px;"><a class="a" href="registration.html">Reset</a></button></th>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
